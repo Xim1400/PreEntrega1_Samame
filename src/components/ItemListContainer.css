@@ -1,0 +1,57 @@
+/* Estilos para el componente ItemListContainer */
+.item-list-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la lista de vehículos */
+  .vehicle-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Estilos para cada vehículo */
+  .vehicle {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vehicle:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos para el contenido del vehículo */
+  .vehicle-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .vehicle h2 {
+    margin-bottom: 10px;
+  }
+  
+  .vehicle p {
+    margin-bottom: 10px;
+  }
+  
+  .vehicle button {
+    background-color: gold;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  

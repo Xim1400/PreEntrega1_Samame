@@ -1,0 +1,65 @@
+/* Estilos para App.js */
+.app {
+  padding: 20px;
+}
+
+/* Estilos para NavBar.js */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(255, 223, 0, 0.3);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-categories {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-categories li {
+  margin-right: 20px;
+}
+
+/* Estilos para CartWidget.js */
+.cart-widget {
+  position: relative;
+  font-size: 24px;
+  margin-left: auto;
+}
+
+.cart-notification {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: rgba(255, 223, 0, 0.8);
+  color: black;
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+
+/* Estilos para ItemListContainer.js */
+.item-list-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Estilos generales para la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
